@@ -7,5 +7,5 @@ export interface User {
 }
 
 export interface State {
-  users: User[];
+  users: User[] | null;
 }
